@@ -1,0 +1,127 @@
+body {
+  background-color: rgba(242,166,12,0.18)
+}
+
+img {
+  width: 170px;
+  border-radius: 48%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(10,10,10,0.6);
+  margin-block-end: 3px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(10,10,10,0.27);
+  margin-block-start: 1px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: grey
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(10,10,10,0.27);
+}
+
+#email {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(250,250,250,1);
+  text-decoration: none;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#email:hover {
+  background-color: #f2a60c;
+}
+
+.icon {
+  font-size: 30px;
+  color: rgba(50,50,200,0.5);
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+#fb {
+  font-size: 30px;
+  color: #4267b2;
+  text-decoration: none;
+}
+
+#fb:hover {
+color: lightgrey;
+}
+#linkedin:hover {
+color: lightgrey;
+}
+#git:hover {
+color: lightgrey;
+}
+
+
+#linkedin {
+  font-size: 30px;
+  color: #0077b5;
+  text-decoration: none;
+}
+
+#git {
+  font-size: 30px;
+  color: #24292e;
+  text-decoration: none;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.first-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.25);
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
