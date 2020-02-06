@@ -60,13 +60,13 @@ h3 {
 }
 
 #fb:hover {
-color: lightgrey;
+opacity: 0.7;
 }
 #linkedin:hover {
-color: lightgrey;
+opacity: 0.7;
 }
 #git:hover {
-color: lightgrey;
+opacity: 0.7;
 }
 
 
